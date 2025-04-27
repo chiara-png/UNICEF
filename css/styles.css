@@ -1,0 +1,328 @@
+/* CSS File: styles.css */
+
+/* Bold and light blue text class */
+.bold-lightblue {
+    font-weight: bold;
+    color: #4fc3f7;  /* Light blue color */
+}
+
+.highlight-blue {
+    font-weight: bold;
+    color: blue;  /* Dark Blue color */
+}
+
+/* Highlighted text with lime color for specific phrases */
+.highlight-lime {
+    font-weight: bold;
+    color: lime;  /* Lime color */
+}
+
+/* Bold and red text class */
+.bold-red {
+    font-weight: bold;
+    color: red;  /* Red color */
+}
+
+/* Bold and yellow text class */
+.bold-yellow {
+    font-weight: bold;
+    color: #FFCC00;  /* Dark Yellow color */
+}
+
+/* Bold and green text class */
+.bold-green {
+    font-weight: bold;
+    color: green;  /* Green color */
+}
+
+/* Bold and navy text class */
+.bold-navy {
+    font-weight: bold;
+    color: navy;  /* Navy color */
+}
+
+/* Highlighted text with blue color */
+.highlight-blue {
+    font-weight: bold;
+    color: #4fc3f7;  /* Light blue color */
+}
+
+/* Highlighted text with red color */
+.highlight-red {
+    font-weight: bold;
+    color: red;  /* Red color */
+}
+
+/* Highlighted text with light blue color */
+.highlight-lightblue {
+    font-weight: bold;
+    color: lightblue;  /* Light blue color */
+}
+
+.orange-text {
+    color: #FFA500;  /* Standard orange color */
+}
+
+/* Styling for the "Introduction" heading */
+h2 span {
+    font-weight: bold;
+    color: #4fc3f7;  /* Light blue color */
+    text-decoration: underline;
+}
+
+/* General styling for images to ensure they are responsive */
+img {
+    width: 70%;   
+    max-width: 100%;  
+    height: auto;   
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Optional: You can also scale images inside the flex container */
+.image-text-item img {
+    max-width: 200px; 
+    height: auto;  
+}
+
+/* Individual items within the flex container */
+.image-text-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Ensure the images are responsive and scale properly */
+.image-text-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Optional: Style for the bold-lightblue class if not already defined */
+.bold-lightblue {
+    font-weight: bold;
+    color: #4fc3f7;  
+}
+
+/* Specific styling for paragraphs under each image */
+p {
+    margin-top: 10px;   
+    font-size: 16px;    
+    line-height: 1.5;   
+}
+
+/* Adjust Table of Contents font size */
+.toc {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px !important;  
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+/* Adjust font size for TOC links */
+.toc a {
+    font-size: 14px !important;  
+    line-height: 1.6;  
+    font-weight: normal;  
+}
+
+/* Ensure the TOC doesn't inherit the large heading sizes */
+.toc h2, .toc h3, .toc h4, .toc h5, .toc h6 {
+    font-size: inherit !important;  
+}
+
+/* Styling for headings in the content (use specific font sizes for content only) */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 24px;  
+    font-weight: bold; 
+    color: #000080; 
+    text-decoration: underline;  
+}
+
+/* Specific style for the largest title (30px) */
+h1 {
+    font-size: 30px;  
+}
+
+/* Specific TOC styling for different depth levels (optional) */
+.toc a:link, .toc a:visited {
+    font-size: 14px !important; 
+    color: #000080;  
+}
+
+
+/* New green color */
+.green-muted {
+    color: #2E8B57;  
+    font-weight: bold;
+}
+
+
+/* Styling for the main body text */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;  
+}
+
+/* Author and date section */
+.author-date-section {
+    display: block;  
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.author-date-section div {
+    margin-bottom: 5px;
+}
+
+/* Make sure the flex styles in the general div rule don't interfere */
+div {
+    display: block;  
+}
+
+.inline-image {
+    margin-right: 20px; 
+    display: inline-block; 
+}
+
+/* Optional: Ensure the images are responsive and scale properly */
+.inline-image img {
+    width: 200px;  
+    height: auto;  
+    height: auto; 
+}
+/* Specific style for the UNICEF logo */
+.unicef-logo {
+    width: 150px;  
+    height: auto;  
+}
+
+/* Optional: Style for each image text item inside the table */
+td {
+    text-align: center;
+    padding: 20px; 
+}
+
+/* Styling for the text below each image */
+.bold-lightblue {
+    font-weight: bold;
+    color: #4fc3f7;  
+    font-size: 16px;  
+    line-height: 1.5;  
+    margin-top: 10px;  
+}
+
+
+/* Optional: Adjust text below images inside the table */
+.table-images td {
+    text-align: center;
+    padding: 20px;  
+}
+
+/* Optional: Styling for the paragraph text under each image inside the table */
+.table-images p {
+    margin-top: 10px;   
+    font-size: 16px;    
+    line-height: 1.5;   
+}
+
+/* Increase image size within tables */
+.table-images img {
+    width: 150%;    
+    max-width: 1500px;  
+    height: auto;   
+}
+
+
+.centered-blue-text {
+    font-weight: bold;
+    color: navy;  
+    text-align: center;  
+    font-size: 18px;  
+    display: block;
+    margin-top: 100px; 
+}
+
+.centered-blue-text em {
+    font-style: italic;  
+}
+
+.donate-image {
+    display: block;
+    margin: 20px auto;  
+    width: 150px;  
+    height: auto;  
+    border: none;  
+}
+
+.centered-image {
+    display: block;
+    margin: 30px auto; 
+    width: 300px;  
+    height: auto;  
+}
+
+/* Ensure images inside the table are properly styled */
+.table-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.table-images td {
+    text-align: center;
+    width: auto; 
+}
+
+/* Increase the size of the images in the table and maintain their aspect ratio */
+.table-images img {
+    width: 500px;  
+    height: auto;  
+}
+
+/* Centering the images without using div tags */
+.centered-image {
+    display: block;
+    margin: 30px auto;  
+    width: 80%;  
+    max-width: 600px;  
+    height: auto;  
+}
+
+/* Specific style to enlarge this image */
+.enlarge-image {
+    width: 95%;  
+    max-width: 100%;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;  
+}
+
+/* Styling for images that should be centered and the same width */
+.centered-image, .centered-image img {
+    width: 100%;  
+    height: auto;  
+    display: block;
+    margin: 20px auto;  
+}
+
+/* New class for the Industrialization image */
+.centered-industrialization img {
+    width: 120%;  
+    height: auto;  
+    display: block;
+    margin: 20px auto;  
+}

@@ -1,0 +1,181 @@
+---
+title: "UNICEF Report"
+subtitle: "**Declining mortality, rising challenges: how development shapes child survival**"
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    toc: true
+    toc-depth: 2
+    theme: "sandstone"
+    toc-position: left
+    css: css/styles.css
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: false
+author: "Chiara Locatelli"
+date: "April 27 2025"
+---
+---------------------------------------------------------
+
+<img src="images/images/unicef_logo.png" class="unicef-logo" alt="UNICEF Logo">
+
+---------------------------------------------------------
+
+<h1 style="color: #4fc3f7; font-family: 'Cursive'; text-align: center; font-style: italic;">HOLD MY HAND</h1>
+
+<table style="width: 100%; text-align: center; margin: 0 auto;">
+    <tr>
+        <!-- First Image and Text -->
+        <td style="width: 30%; text-align: center;">
+            <img src="images/images/hands_logo.png" width="150" height="auto" alt="Hold My Hand">
+            <p class="bold-lightblue">"Hold My Hand" embodies the idea that no child should be left behind and that global support is needed to address high child mortality and rising birth rates in under-equipped nations.</p>
+        </td>
+        <!-- Second Image and Text -->
+        <td style="width: 30%; text-align: center;">
+            <img src="images/images/man_and_child_logo.png" width="150" height="auto" alt="UNICEF Mission">
+            <p class="bold-lightblue">UNICEF leads the fight against child mortality by expanding healthcare, improving infrastructure, and investing in sustainable solutions, ensuring every child has an equal chance to survive and thrive.</p>
+        </td>
+        <!-- Third Image and Text -->
+        <td style="width: 30%; text-align: center;">
+            <img src="images/images/target_logo.png" width="150" height="auto" alt="Target">
+            <p class="bold-lightblue">At the end of this visualization, you will understand that economic growth alone isn't enough; developed nations must address child mortality and poor living conditions in underdeveloped countries with high birth rates.</p>
+        </td>
+    </tr>
+</table>
+
+
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Introduction</span>
+
+This report explores the evolving relationship between child mortality, economic development, and healthcare infrastructure. It highlights the dramatic global decline in child mortality over the past few decades, with a particular focus on the challenges faced by developing nations. While wealthier nations benefit from stronger healthcare systems and lower child mortality, many countries continue to struggle with high death rates due to limited healthcare access and poor living conditions.
+
+The dataset utilized in this report includes **unicef_indicator_2.csv**, which provides detailed information on child mortality rates (age 10-14). Additionally, **unicef_metadata.csv** offers contextual data about countries, including their GDP, fossil fuel consumption rates, and life expectancy at birth, which help to explain the disparities observed in child survival outcomes.
+
+By examining these data points, this report emphasizes how economic development and healthcare improvements are key to addressing child mortality, while also highlighting the urgent need for global collaboration, especially in regions with the highest birth rates and weakest healthcare infrastructure.
+
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Percentage of child mortality (Age 0-14) from 1990 to 2022 across the world</span>
+
+<img src="images/images/child_mortality_trends.png" alt="Child Mortality Trends" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+
+This graph shows the significant decrease in **child mortality rates (ages 10-14) worldwide from 1990 to 2022**. In 1990, the child mortality rate for this age group was **270.25 per 1,000 children**, but by 2022, it had **fallen to 138.75 per 1,000**. This remarkable reduction of 48.66% highlights the **<span style="color: #4fc3f7; font-weight: bold;">global progress in improving child health</span>**, thanks to advancements in healthcare, vaccines, nutrition, and sanitation.
+
+While this reduction in child mortality is a major achievement, it’s important to note that progress has been **<span style="color: red; font-weight: bold;">uneven across regions</span>**. Some areas have seen significant improvements, while others still face high child mortality rates, indicating **<span style="color: #4fc3f7; font-weight: bold;">the need for continued efforts and targeted interventions in the most vulnerable regions</span>**.
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Interactive map: child mortality across GDP levels (2022)</span>
+
+<iframe src="images/images/map.html" width="100%" height="600px" frameborder="0"></iframe>
+
+This map for 2022 vividly underscores a **sharp disparity between GDP per capita and the distribution of child mortality (ages 10-14)** across the globe. It reveals the powerful influence of economic conditions on child survival, with **<span style="color: #4fc3f7; font-weight: bold;">wealthier nations</span>** demonstrating markedly **lower mortality rates**.
+
+💡 To enhance clarity, I have categorized countries into four income levels based on GDP per capita (constant 2015 US$): 
+**<span style="color: red;">Low Income (<5,000)</span>**, 
+**<span style="color: #FFA500;">Medium-Low (5,000 – 14,999)</span>**,
+**<span style="color: lightblue;">Medium-High (15,000 – 34,999)</span>**,  
+**<span style="color: green;">High Income (≥35,000)</span>**. 
+This classification helps illustrate how economic disparities shape child survival outcomes. **If you hover over the map, you'll see the distinction of countries by income levels.** 
+
+A country's economic strength, particularly GDP per capita, is a crucial factor in determining child mortality rates. Higher GDP per capita often reflects greater economic activity, higher income, and improved living standards, which contribute to better healthcare, nutrition, and economic stability. **<span style="color: #4fc3f7; font-weight: bold;">Wealthier countries</span>** can invest more in public health and essential services, leading to **lower child mortality** and a **higher quality of life.**
+
+As nations become wealthier, not only do **<span style="color: green; font-weight: bold;">child mortality rates decline</span>**, but **<span style="color: green; font-weight: bold;">life expectancy at birth also increases</span>**.
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Life expectancy and GDP per capita (2002-2022)</span>
+
+<img src="images/images/life_expectancy_gdp.png" alt="Life Expectancy and GDP" style="width: 90%; height: auto; display: block; margin: 0 auto;">
+
+
+This relationship between GDP per capita and child mortality underscores a broader trend in global health: **<span style="color: green; font-weight: bold;">economic prosperity is strongly tied to population well-being</span>**.
+
+This visualization highlights the positive correlation between GDP per capita and life expectancy, showing that **<span style="color: #4fc3f7; font-weight: bold;">wealthier nations</span>** tend to have **longer life spans** due to **stronger economies and healthcare systems**. Life expectancy at birth is also closely tied to <strong style="color: red;">child mortality</strong>, with higher life expectancy generally indicating lower child mortality. This is driven by factors such as **better healthcare, access to vaccines, reduced disease burden, and improved sanitation.**
+
+❗*Life expectancy at birth dropped significantly in 2020 and 2021 due to the COVID-19 pandemic 🦠, falling from 72.5 to 71.7 years globally. By 2022, a rebound of +0.66 years signaled recovery, supported by vaccines, testing, and improved healthcare responses.*
+
+This strong connection between **economic prosperity and life expectancy** naturally extends to **child mortality rates**. Just as wealthier nations tend to have higher life expectancy, they also experience lower child mortality rates.
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Life expectancy at birth vs. child mortality (2022)</span>
+
+<img src="images/images/child_mortality_life_expectancy.png" alt="Life Expectancy vs Child Mortality" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+
+This scatterplot further illustrates this relationship, showing a negative correlation between life expectancy at birth and child mortality rates. 
+
+Countries with higher life expectancy, typically **<span style="color: green;">high income nations</span>**, are characterized by lower child mortality rates, demonstrating the direct correlation between economic prosperity, better healthcare, and longer life spans. In contrast, as the income level of nations **decreases**, particularly in **<span style="color: red;">low income countries</span>**, the data points move forward along the x-axis, indicating significantly higher child mortality and reduced life expectancy at birth.
+
+While **economic development** is a key driver of **reducing child mortality** and **increasing life expectancy**, another crucial factor comes into play: **<span style="color: blue;">industrialization and energy consumption</span>**.
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">Industrialization and its consequences: percentage of fossil fuel energy consumption and child mortality (age 10-14)</span>
+
+<p class="centered-industrialization">
+    <img src="images/images/industrialization.png" alt="GDP and Fossil Fuel Consumption" class="centered-image" width="120%" height="auto" style="display:block; margin: 20px auto;">
+</p>
+
+<img src="images/images/child_mortality_fossil_fuel.png" width="90%" height="auto" alt="Fossil Fuel and Child Mortality" style="display:block; margin: 20px auto;">
+
+
+These two visualizations highlight how **higher fossil fuel energy consumption** not only is associated with **higher GDP** (aligning with previous findings) but also with **lower child mortality rates**. This correlation exists because **industrialized nations tend to have stronger infrastructure, better hospitals, improved sanitation, and more reliable electricity—factors** that directly enhance public health and survival outcomes.
+
+❗ However, it is important to clarify that fossil fuels themselves do not directly reduce mortality. Instead, the relationship emerges because wealthier, industrialized nations (which typically consume more energy) also invest heavily in healthcare and public health, reinforcing the broader link between economic strength and child survival rates. It highlights how industrialized nations with higher energy consumption often invest more in public health, leading to better child survival outcomes.
+
+While **industrialization** and **energy consumption** contribute to **<span style="color: green;">economic growth</span>** and **<span style="color: green;">improved public health</span>**, a **<span style="color: blue;">nation’s healthcare infrastructure</span>** plays an even more direct role in **reducing child mortalit**.
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">The role of healthcare infrastructure: hospital beds per 1,000 people, GDP per capita and child mortality rate (age 10-14)</span>
+
+<img src="images/images/hospital_beds_child_mortality.png" width="100%" height="auto" alt="Hospital Beds and Child Mortality" style="display:block; margin: 20px auto;">
+
+Strong economies often allocate resources toward better hospital infrastructures, improved medical facilities, and greater healthcare accessibility, further reinforcing the link between GDP per capita and child survival rates.
+
+The following visualization highlights the relationship between hospital bed availability and child mortality rates across different income groups. It shows that countries with **higher GDP per capita** tend to have **better access to healthcare services**, as reflected in a higher percentage of <span style="color: #FFCC00; font-weight: bold;">hospital beds per 1,000 people</span>. As a result, these nations generally experience <span style="color:purple; font-weight: bold;">lower child mortality rates</span>.
+
+On the other hand, countries with **lower GDP per capita**, marked by limited healthcare resources, often struggle with **overcrowded hospitals and inadequate neonatal care**, which contribute to <span style="color:purple; font-weight: bold;">higher child mortality rates</span>. This disparity underscores the crucial link between economic development and healthcare infrastructure in improving child survival outcomes.
+
+![More hospital beds can lead to better medical access and lower child mortality rates](images/images/hospital_beds_logo.png)
+
+<img src="images/images/medicine.png" width="60%" height="auto" alt="Medicine" style="display:block; margin: 20px auto;">
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">The downside of development: falling birth rates (2022)</span>
+
+<img src="images/images/birth_rate_gdp_comparison.png" style="width: 900px; height: auto; display: block; margin: 0 auto;">
+
+While economic development brings <span style="color: blue; font-weight: bold;">lower child mortality, better healthcare, and longer life expectancy</span>, it also results in <span style="color: red; font-weight: bold;">declining birth rates</span>.
+
+📉 In high-income nations, birth rates are dropping due to:
+
+✔️ Better access to contraception and reproductive healthcare, preventing unplanned births.  
+✔️ Higher education levels (especially for women).  
+✔️ Increased career opportunities delaying childbirth.  
+✔️ Urbanization and high living costs discouraging large families.  
+
+✍️ **NOTE:**  
+For this map, I used the most recent year (2022) to display data from my datasets, confronting child mortality rates (birth rate, crude (per 1,000 people)) with the 10 most and least developed countries (based on GDP per capita, measured as constant 2015 US$) for the same year.
+
+To link with the above paragraph, I've categorized countries into:
+
+- **Developed Countries** → above the median GDP per capita (with <span style="color: blue; font-weight: bold;">darkest shades of blue</span>)
+- **Developing Countries** → below the median GDP per capita <span class="green-muted">lightest shades of green</span>
+
+📊 **Average Birth Rate (per 1,000 people):**
+
+- **Developed Countries** → average birth rate of 9.68 per 1,000 people  
+- **Developing Countries** → average birth rate of 38.40 per 1,000 people  
+
+💡 **Insight:**  
+Developing countries have more than triple the birth rate of developed countries. The stark contrast in birth rates between these groups reveals critical demographic and socioeconomic patterns, raising an important question: **How will our world evolve as the population of developing countries continues to rise, especially considering the global challenges posed by increasing birth rates?**
+
+## <span style="font-weight: bold; color: #000080; text-decoration: underline;">A call to action: the road ahead with UNICEF</span>
+
+
+<img src="images/images/final_goals_logo.png" class="enlarge-image" alt="Final Goals Logo" style="display:block; margin: 0 auto;">
+
+---------------------------------------------------------
+<p class="centered-blue-text">
+    <em>Support UNICEF: every gift changes a life! (click to donate)</em>
+    <a href="https://www.unicef.ie/donate/?c=708#1" target="_blank">
+        <img src="images/images/donate_logo.png" alt="Donate" class="donate-image">
+    </a>
+</p>
+
+<p class="centered-image">
+    <img src="images/images/happy_children.png" alt="Happy Children" class="centered-image" width="100%" height="auto" style="display:block; margin: 20px auto;">
+</p>
